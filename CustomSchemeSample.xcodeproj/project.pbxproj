@@ -11,6 +11,7 @@
 		A81321E62671A67800BB0794 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81321E52671A67800BB0794 /* ContentView.swift */; };
 		A81321E82671A67900BB0794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81321E72671A67900BB0794 /* Assets.xcassets */; };
 		A81321EB2671A67900BB0794 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81321EA2671A67900BB0794 /* Preview Assets.xcassets */; };
+		A81321F32671AA2E00BB0794 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81321F22671AA2E00BB0794 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A81321E72671A67900BB0794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A81321EA2671A67900BB0794 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A81321EC2671A67900BB0794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81321F22671AA2E00BB0794 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A81321E32671A67800BB0794 /* CustomSchemeSampleApp.swift */,
 				A81321E52671A67800BB0794 /* ContentView.swift */,
+				A81321F22671AA2E00BB0794 /* SecondView.swift */,
 				A81321E72671A67900BB0794 /* Assets.xcassets */,
 				A81321EC2671A67900BB0794 /* Info.plist */,
 				A81321E92671A67900BB0794 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81321F32671AA2E00BB0794 /* SecondView.swift in Sources */,
 				A81321E62671A67800BB0794 /* ContentView.swift in Sources */,
 				A81321E42671A67800BB0794 /* CustomSchemeSampleApp.swift in Sources */,
 			);

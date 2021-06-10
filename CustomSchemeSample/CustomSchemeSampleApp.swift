@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct CustomSchemeSampleApp: App {
+    
+    @State var index: Int = 0
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if self.index == 0 {
+                ContentView()
+                    .onOpenURL(perform: { url in
+                        debugPrint(url)
+                        self.index = 1
+                    })
+            } else {
+                SecondView()
+            }
         }
     }
 }
